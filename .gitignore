@@ -1,0 +1,25 @@
+# Databricks
+.databricks/
+databricks.yml
+
+# ドキュメント（ローカル管理）
+ROADMAP.md
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# 環境変数・シークレット
+.env
+.env.*
+
+# ログ
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

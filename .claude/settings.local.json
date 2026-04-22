@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(databricks --version)",
+      "Bash(winget search *)",
+      "Bash(where databricks *)",
+      "Bash(pip show *)",
+      "Bash(.venv/Scripts/pip uninstall *)"
+    ]
+  }
+}
